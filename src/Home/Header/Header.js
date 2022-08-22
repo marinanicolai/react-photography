@@ -1,8 +1,11 @@
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
     <div>
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
+          <Link to={"/contact"}>Contact</Link>
           <a class="navbar-brand" href="#">
             Navbar
           </a>
